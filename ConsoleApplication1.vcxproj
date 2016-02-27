@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{BC98EFF5-1FB3-4C99-9AA5-4F9F7098B0DA}</ProjectGuid>
+    <ProjectGuid>{F77DD6F3-E3DF-4D74-AFB5-0FD564F11036}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>ConsoleApplication1</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
@@ -146,11 +146,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="QuadraticEquation.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClInclude Include="fan.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="QuadraticEquation.h" />
+    <ClCompile Include="fan.cpp" />
+    <ClCompile Include="utilizeFan.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
