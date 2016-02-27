@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F77DD6F3-E3DF-4D74-AFB5-0FD564F11036}</ProjectGuid>
+    <ProjectGuid>{C307023A-6AB7-4331-8ED4-A0E5AA8AABC2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>ConsoleApplication1</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
@@ -146,11 +146,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="fan.h" />
+    <ClInclude Include="evenNumber.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="fan.cpp" />
-    <ClCompile Include="utilizeFan.cpp" />
+    <ClCompile Include="evenNumber.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
