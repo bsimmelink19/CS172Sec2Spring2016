@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C307023A-6AB7-4331-8ED4-A0E5AA8AABC2}</ProjectGuid>
+    <ProjectGuid>{0D834B4D-ACA5-4CD3-A662-B1E279E96D60}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>ConsoleApplication1</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
@@ -146,11 +146,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="evenNumber.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="Venue.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="evenNumber.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Event.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Venue.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
