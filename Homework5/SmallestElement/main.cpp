@@ -4,7 +4,9 @@
 //Homewerk 5 Find the Smallest Element
 //3-31-16
 //////////////////////////////////////////
-
+/*Derek- Coudln't check to make sure it ran right so I docked 5 but it looks correct from what I can see
+15/20
+*/
 #include <iostream>
 using namespace std;
 

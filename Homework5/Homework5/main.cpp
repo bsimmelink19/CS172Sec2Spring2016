@@ -5,6 +5,11 @@
 //3-31-16
 //////////////////////////////////////////
 
+
+/*Derek- This runs great and is wonderful, nice job Brady. Why did you put all of the projects like this into one thing though? it only lets me run one main program so then I cant 
+check the rest of your programs without putting them into different programs. 
+20/20
+*/
 #include <iostream>
 using namespace std;
 

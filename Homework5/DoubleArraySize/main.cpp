@@ -5,6 +5,10 @@
 //3-31-16
 /////////////////////////////////////////
 
+
+/*Derek- Coudln't check to make sure it ran right so I docked 5 but it looks correct from what I can see
+14/20, dont forget to delete pointer and also make sure you you populate the doubled array with the old list -1
+*/
 #include <iostream>
 using namespace std;
 
